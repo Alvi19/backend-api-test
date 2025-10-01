@@ -4,7 +4,7 @@
 git clone https://github.com/Alvi19/backend-api-test.git
 cd backend-api-test
 ```
-2. **Setup Virtual Environment**
+2. **Setup Environment**
 
 ```bash
 DB_USER=postgres
