@@ -6,10 +6,10 @@ cd backend-api-test
 ```
 2. **Setup Database**
 ```bash
--Masuk ke PostgreSQL dan buat database baru:
-CREATE DATABASE eticketing;
--Aktifkan extension UUID (wajib supaya fungsi uuid_generate_v4() di schema bisa jalan):
-CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+-Masuk ke PostgreSQL dan buat database baru
+CREATE DATABASE eticketing
+-Aktifkan extension UUID (wajib supaya fungsi uuid_generate_v4() di schema bisa jalan)
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp"
 -Import Database
 ```
 
